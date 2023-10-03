@@ -1,0 +1,245 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: #222;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100vh;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .header {
+        background-image: url(./img/GUN05543.jpg);
+        background-repeat: no-repeat;
+        background-position: 75% 10%;
+        background-attachment: scroll;
+        background-size: cover;
+        height: max-content;
+        margin: 0;
+        padding-top: 100vh;
+    }
+
+    .heading {
+        color: #ffffff;
+        display: block;
+        letter-spacing: 7px;
+
+        /* font-weight: bold; */
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 27px;
+        /* font-weight: normal; */
+        text-shadow: 0 0 10px #000;
+
+        position: absolute;
+        /* top: 50px; */
+        left: 15%;
+        right: 15%;
+       
+
+    }
+
+    .heading-left {
+        color: #ffffff;
+        display: block;
+        font-family: 'Mea Culpa';
+        font-size: 30px;
+        font-weight: normal;
+        text-shadow: 0 0 10px #000;
+
+        position: absolute;
+        bottom: 430px;
+        left: 10%;
+        /* right: 15%; */
+
+    }
+
+    .heading-right {
+        color: #ffffff;
+        display: block;
+        font-family: 'Mea Culpa';
+        font-size: 30px;
+        font-weight: normal;
+        text-shadow: 0 0 10px #000;
+
+        position: absolute;
+        /* top: 210px; */
+        bottom: 400px;
+        /* left: 15%; */
+        right: 10%;
+
+    }
+
+    .heading-center {
+        color: #ffffff;
+        display: block;
+        font-family: 'Mea Culpa';
+        font-size: 30px;
+        font-weight: normal;
+        text-shadow: 0 0 10px #000;
+
+        position: absolute;
+        /* top: 190px; */
+        bottom: 415px;
+        /* left: 15%; */
+        right: 50%;
+
+    }
+
+    .heading-subtext {
+        color: #fff;
+        display: block;
+        font-family: 'Caveat', cursive;
+        font-size: .1em;
+    }
+
+}
+
+@media (min-width: 1300px) {
+    .header {
+        background-image: url(./img/30x30_01.jpg);
+        background-repeat: no-repeat;
+        background-position: 40% 50%;
+        background-attachment: scroll;
+        background-size: cover;
+        height: fit-content;
+        margin: 0;
+        padding-top: 70vh;
+    }
+
+    .heading {
+        color: #ffffff;
+        display: block;
+        font-family: 'Mea Culpa';
+        font-size: 6em;
+        font-weight: normal;
+        text-shadow: 0 0 10px #000;
+        line-height: -3;
+    }
+
+    .heading-subtext {
+        color: #fff;
+        display: block;
+        font-family: 'Caveat', cursive;
+        font-size: .3em;
+    }
+}
+
+.text-spacing-five {
+    letter-spacing: 5px;
+}
+
+img.gmap {
+    height: 8%;
+    width: 8%;
+  }
+
+.fixed-button {
+    background: rgba(20, 20, 20, .5);
+    border-radius: 1em;
+    bottom: 1em;
+    color: white;
+    font-weight: bold;
+    padding: 1em;
+    position: fixed;
+    right: 1em;
+    text-decoration: none;
+    z-index: 9999;
+}
+
+.fixed-button::after {
+    content: "\25BE";
+    display: block;
+    font-size: 28px;
+    line-height: 0;
+    margin-bottom: 6px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.fixed-button:active,
+.fixed-button:hover {
+    background: rgba(20, 20, 20, .9);
+}
+
+.img-background-1 {
+    background-image: url(./img/GUN05890.JPG);
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 40vh;
+    margin: 0;
+    padding-top: 60vh;
+
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+}
+
+.section {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 1em 2.4em;
+}
+
+.sub-heading {
+    /* Snell Roundhand */
+    /* font-family: 'Caveat', cursive; */
+    font-family: 'Gwendolyn';
+    font-size: 3em;
+    margin-top: 2em;
+    margin-bottom: 5px;
+}
+
+.sub-heading2 {
+    font-family: cursive;
+    font-size: 3em;
+    margin-top: 2em;
+}
+
+.details {
+    margin: 0 auto 8em;
+}
+
+.details-heading {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.fas {
+    font-size: 3em;
+    opacity: .8;
+}
+
+.resort-image {
+    width: 100%
+}
+
+/* @media only screen and (max-width: 600px) {
+    .heading {
+        font-size: 4em;
+    }
+  } */
